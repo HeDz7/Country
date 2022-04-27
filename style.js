@@ -40,7 +40,7 @@ toque.addEventListener('mousemove', mover)
 toque.addEventListener('mouseout', sair)
 
 function mover() {
-  toque.style.boxShadow = 'inset 0 0 15px rgba(0, 0, 0, 0.44)'
+  toque.style.boxShadow = 'inset 0 0 5px rgba(0, 0, 0, 0.44)'
 }
 
 function sair() {

@@ -26,6 +26,7 @@ body {
   text-align: center;
   font: bolder 2em 'MS Madi', sans-serif;
   letter-spacing: 2px;
+  background: transparent;
 }
 
 #select option {
