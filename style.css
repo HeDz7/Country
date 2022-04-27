@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Updock&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(bg2.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+#select {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+  text-align: center;
+  font: bolder 2em 'MS Madi', sans-serif;
+  letter-spacing: 2px;
+}
+
+#select option {
+  font: bold 1em 'Updock', sans-serif;
+  width: auto;
+}
+
+@media screen and (max-width: 900px) {
+  #select {
+    width: 80%;
+  }
+}
