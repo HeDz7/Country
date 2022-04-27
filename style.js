@@ -5,32 +5,32 @@ function select() {
   if (countrys[1].selected) {
     document.body.style.backgroundImage = "url('brasil.jpg')"
     document.body.style.backgroundPosition = 'center'
-    document.body.style.backgroundRepeat = "no-repeat";
-    document.body.style.backgroundSize = "cover";
+    document.body.style.backgroundRepeat = "no-repeat"
+    document.body.style.backgroundSize = "cover"
 
   } else if (countrys[2].selected) {
     document.body.style.backgroundImage = "url('russia.jpg')"
     document.body.style.backgroundPosition = 'center'
-    document.body.style.backgroundRepeat = "no-repeat";
-    document.body.style.backgroundSize = "cover";
+    document.body.style.backgroundRepeat = "no-repeat"
+    document.body.style.backgroundSize = "cover"
 
   } else if (countrys[3].selected) {
     document.body.style.backgroundImage = "url('japao.jpg')"
     document.body.style.backgroundPosition = 'center'
-    document.body.style.backgroundRepeat = "no-repeat";
-    document.body.style.backgroundSize = "cover";
+    document.body.style.backgroundRepeat = "no-repeat"
+    document.body.style.backgroundSize = "cover"
 
   } else if (countrys[4].selected) {
     document.body.style.backgroundImage = "url('noruega.jpg')"
     document.body.style.backgroundPosition = 'center'
-    document.body.style.backgroundRepeat = "no-repeat";
-    document.body.style.backgroundSize = "cover";
+    document.body.style.backgroundRepeat = "no-repeat"
+    document.body.style.backgroundSize = "cover"
 
   } else if (countrys[5].selected) {
     document.body.style.backgroundImage = "url('grecia.jpg')"
     document.body.style.backgroundPosition = 'center'
-    document.body.style.backgroundRepeat = "no-repeat";
-    document.body.style.backgroundSize = "cover";
+    document.body.style.backgroundRepeat = "no-repeat"
+    document.body.style.backgroundSize = "cover"
 
   }
 }

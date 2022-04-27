@@ -16,7 +16,6 @@ body {
   background-repeat: no-repeat;
 }
 
-
 #select {
   position: absolute;
   top: 50%;
@@ -26,12 +25,11 @@ body {
   text-align: center;
   font: bolder 2em 'MS Madi', sans-serif;
   letter-spacing: 2px;
-  background: transparent;
+  background: rgba(255, 255, 255, 0.451);
 }
 
 #select option {
   font: bold 1em 'Updock', sans-serif;
-  width: auto;
 }
 
 @media screen and (max-width: 900px) {
